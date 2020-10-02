@@ -7,12 +7,14 @@ fifth_word = input("Enter fifth word: ")
 print("\n\n")
 
 
-print("Oh, won't you tell me? Please just " + first_word)  
-print("Explain how this " +second_word + " work")
-print("Well now who could it be, that lives inside of me?")
-print("I'm broken, lying helpless, shattered")
-print("Surrounded by the " + third_word)
-print("And yet, your smiling " +fourth_word)
-print("Completely blind to life")
-print("My ruptured lungs; they were left this way")
-print("For once, I'm out of " + fifth_word)
+result_string = (f""" Oh, won't you tell me? Please just {third_word} \n
+Explain how this {second_word} work \n
+Well now who could it be, that lives inside of me? \n 
+I'm broken, lying helpless, shattered\n 
+Surrounded by the {fourth_word}\n 
+And yet, your smiling {fifth_word} \n
+Completely blind to life\n
+My ruptured lungs; they were left this way\n
+For once, I'm out of {first_word}\n""")
+
+print(result_string)
